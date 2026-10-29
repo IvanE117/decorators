@@ -19,7 +19,7 @@ def greeting():
 
 
 @uppercase_output
-def get_number(): 
+def get_number():
     return 42
 
 
