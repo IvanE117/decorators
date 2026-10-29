@@ -29,5 +29,5 @@ def hi(name):
 
 
 print(hi("Bob"))
-print(greeting())  # "HELLO"
+print(greeting())
 print(get_number())
