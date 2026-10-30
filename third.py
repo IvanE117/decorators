@@ -5,6 +5,7 @@ from functools import wraps
 def retry(times=3, exceptions=(Exception,), delay=0):
     if times < 1: raise ValueError("times должно быть >= 1")
     exceptions = tuple(exceptions)
+
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
